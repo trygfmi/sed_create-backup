@@ -38,8 +38,9 @@
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_create-backup
 cd sed_create-backup
 cat test1.txt
-sed -i '.bak' '2i\
+sed -i'.bak' '2i\
 fff' test1.txt
+cat test1.txt
 ls</code></pre>
 
 
@@ -79,6 +80,7 @@ cd sed_create-backup
 cat test1.txt
 sed -i '.bak' '2i\
 fff' test1.txt
+cat test1.txt
 ls</code></pre>
 
 
@@ -115,8 +117,9 @@ test1.txt test1.txt.bak</code></pre>
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_create-backup
 cd sed_create-backup
 cat test1.txt
-sed -i '.bak' '2i\
+sed -i'.bak' '2i\
 fff' test1.txt
+cat test1.txt
 ls</code></pre>
 
 
@@ -149,8 +152,9 @@ test1.txt test1.txt.bak</code></pre>
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_create-backup
 cd sed_create-backup
 cat test1.txt
-sed -i '.bak' '2i\
+sed -i'.bak' '2i\
 fff' test1.txt
+cat test1.txt
 ls</code></pre>
 
 
@@ -227,8 +231,9 @@ test1.txt test1.txt.bak</code></pre>
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_create-backup
 cd sed_create-backup
 cat test1.txt
-sed -i '.bak' '2i\
+sed -i'.bak' '2i\
 fff' test1.txt
+cat test1.txt
 ls</code></pre>
 
 
@@ -316,6 +321,7 @@ cd sed_create-backup
 cat test1.txt
 sed -i '.bak' '2i\
 fff' test1.txt
+cat test1.txt
 ls</code></pre>
 
 
@@ -426,8 +432,9 @@ test1.txt test1.txt.bak</code></pre>
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_create-backup
 cd sed_create-backup
 cat test1.txt
-sed -i '.bak' '2i\
+sed -i'.bak' '2i\
 fff' test1.txt
+cat test1.txt
 ls</code></pre>
 
 
@@ -460,8 +467,9 @@ test1.txt test1.txt.bak</code></pre>
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/sed_create-backup
 cd sed_create-backup
 cat test1.txt
-sed -i '.bak' '2i\
+sed -i'.bak' '2i\
 fff' test1.txt
+cat test1.txt
 ls</code></pre>
 
 
@@ -498,8 +506,23 @@ test1.txt test1.txt.bak</code></pre>
 
 
 
+<h3 class="wp-block-heading">Ubuntu、Windows</h3>
+
+
+
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sed -i'test1.bak' '2i\
+fff' test1.txt
+ls</code></pre>
+
+
+
+<h3 class="wp-block-heading">macOS</h3>
+
+
+
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sed -i 'test1.bak' '2i\
-fff' test1.txt</code></pre>
+fff' test1.txt
+ls</code></pre>
 </div>
 
 
